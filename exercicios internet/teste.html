@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       
+        div > ul {
+            display: none;
+            text-align: center;
+        }
+        
+        div:hover {
+            width: min-content;
+            border-radius: 7px;
+            color: aliceblue;
+        }
+        
+        div:hover > ul {
+            display: inline-block;
+            background-color: crimson;
+            color: aliceblue;
+            border-radius: 10px;
+            margin: 0;
+            width: auto;
+            text-align: center;
+            height: 400px;
+        }
+
+        div:hover > h2 {
+            background-color:darkmagenta;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    
+    <div>
+        <h2>Lista</h2>
+    <ul>  
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+    </ul>
+</div>
+</body>
+</html>
